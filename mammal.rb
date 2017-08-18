@@ -1,3 +1,4 @@
+
 class Mammal
   attr_accessor :name, :age
 
@@ -14,6 +15,3 @@ class Mammal
     raise "you must override this in a child class"
   end
 end
-
-
-Mammal.new
